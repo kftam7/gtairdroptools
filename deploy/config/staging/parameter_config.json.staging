@@ -1,0 +1,16 @@
+{
+    "maxLengthByCSVCrypto": 500,
+    "maxLengthByInputCrypto": 50,
+    "maxLengthByCSVEmail": 200,
+    "maxLengthByInputEmail": 50,    
+    "maxTokenToSend": 10000,
+    "maxNoteLength": 1000,
+    "highGasLimitBSC": 20000000,
+    "lowGasLimitBSC": 15000000,
+    "highGasPriceBSC": "12.0",
+    "lowGasPriceBSC": "10.0",
+    "highGasLimitPolygon": 15000000,
+    "lowGasLimitPolygon": 10000000,
+    "highGasPricePolygon": "10.0",
+    "lowGasPricePolygon": "8.0"
+}

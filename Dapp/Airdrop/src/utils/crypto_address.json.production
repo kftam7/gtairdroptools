@@ -1,0 +1,12 @@
+{
+	"bsc_name": "BSC",
+	"bsc_chain_id": "56",
+	"bsc_sc_address": "0x9036CCa5c172B6bDaA69F2E3a1A42257B3121D22",
+	"bsc_token_address": "0xEb29F65c4DaEEA6462a2F280E3Bf418Ec8B3Da9b",
+	"bsc_explorer_address": "https://bscscan.com/tx/",
+	"polygon_name": "Polygon",
+	"polygon_chain_id": "137",
+	"polygon_sc_address": "0x9036CCa5c172B6bDaA69F2E3a1A42257B3121D22",
+	"polygon_token_address": "0x06E2DDd17F1043c0a4Cbe72cc7c256E4d8a3E374",
+	"polygon_explorer_address": "https://polygonscan.com/tx/"
+}

@@ -1,0 +1,13 @@
+{
+    "baseUrl": "https://kyc.blockpass.org/kyc/1.0/connect",
+    "bscServiceID": "green_token_db33f",
+    "bscAuthKey": "1d2e14dfbfcd96afd12f48834d8c71ea",
+    "polygonServiceID": "green_token_matic",
+    "polygonAuthKey": "e8de73226b13acd10a34cf45520806fd",
+    "keywordApproved": "approved",
+    "keywordRejected": "rejected",
+    "keywordIncomplete": "incomplete",
+    "keywordWaiting": "waiting",
+    "keywordInreview": "inreview",
+    "keywordBlocked": "blocked"
+}

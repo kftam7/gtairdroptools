@@ -1,0 +1,1009 @@
+{
+	"info": {
+		"_postman_id": "270170e1-c788-477a-812d-eb8490c554cd",
+		"name": "GTAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23541331"
+	},
+	"item": [
+		{
+			"name": "GET crypto Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "admin:admin1234",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/crypto/admin",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"crypto",
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET email Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/email/edward",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"email",
+						"edward"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET credential Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/credential",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"credential"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET keyinfo Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/keyinfo/EW6NS7JR71IBU3WIP48WMDQLQUON9JS7",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"keyinfo",
+						"EW6NS7JR71IBU3WIP48WMDQLQUON9JS7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET emailAddress Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/emailaddress",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"emailaddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET emailTemplate Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/emailtemplate",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"emailtemplate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET userEmailTemplate Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/useremailtemplate/1/Polygon",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"useremailtemplate",
+						"1",
+						"Polygon"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET emailtemplatelookup Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/emailtemplatelookup/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"emailtemplatelookup",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET airdropcampaign Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/airdropcampaign",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"airdropcampaign"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET airdroplist Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/airdroplist",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"airdroplist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST crypo Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n     \"user\":\"Admin\",\n     \"sendTime\":\"2022-06-09 09:00:10\",\n     \"chain\":\"BSC\",\n     \"tokenAddress\":\"0xd2459f4d1f0Ee987F0B0b170D96E60B03a7D8664\",\n     \"walletAddress\":\"0x1f6A403347fd2d335d14Dc3f1AEb21D9192cF166\",\n     \"tokenNo\":10,\n     \"gasPrice\":1,\n     \"gasLimit\":2, \n     \"note\":\"Note 1\",\n     \"txnHash\":\"0xbf432a98ec27ee7e2e9de1531ec84e62a8707c6ac8b65abd8741e5eaf6bb6af0\",\n     \"success\":\"0\"\n  },\n  {\n     \"user\":\"Admin\",\n     \"sendTime\":\"2022-06-09 09:00:10\",\n     \"chain\":\"BSC\",\n     \"tokenAddress\":\"0xd2459f4d1f0Ee987F0B0b170D96E60B03a7D8664\",\n     \"walletAddress\":\"0x9B39710bD511bc14Fcb0f64a9D8f8e6F630751Ab\",\n     \"tokenNo\":10,\n     \"gasPrice\":3,\n     \"gasLimit\":4,     \n     \"note\":\"Note 2\",\n     \"txnHash\":\"0xbf432a98ec27ee7e2e9de1531ec84e62a8707c6ac8b65abd8741e5eaf6bb6af0\",\n     \"success\":\"1\"\n  },\n  {\n     \"user\":\"Admin\",\n     \"sendTime\":\"2022-06-09 09:00:10\",\n     \"chain\":\"BSC\",\n     \"tokenAddress\":\"0xd2459f4d1f0Ee987F0B0b170D96E60B03a7D8664\",\n     \"walletAddress\":\"0x4BCC679c78E2C6D724E49B2F59f0F3B0565854D9\",\n     \"tokenNo\":3,\n     \"gasPrice\":5,\n     \"gasLimit\":6,     \n     \"note\":\"Note 3\",\n     \"txnHash\":\"0xbf432a98ec27ee7e2e9de1531ec84e62a8707c6ac8b65abd8741e5eaf6bb6af0\",\n     \"success\":\"1\"\n  }\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/crypto/admin",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"crypto",
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST email Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"user\": \"Shikhar\",\n        \"sendTime\": \"2022-07-21 09:00:10\",\n        \"chain\": \"BSC\",\n        \"tokenAddress\": \"0x84b9B910527Ad5C03A9Ca831909E21e236EA7b06\",\n        \"emailAddress\": \"edwardtam919@gmail.com\",\n        \"tokenNo\": 2,\n        \"expiry\": \"2024-12-05 09:00:10\",\n        \"KYC\": 0,\n        \"KYCResult\": 0,\n        \"sendStatus\": 0,\n        \"linkClicked\": 0,\n        \"whenClicked\": \"2022-05-08 14:04:18\",\n        \"walletAddress\": \"0x1f6A403347fd2d335d14Dc3f1AEb21D9192cF166\",\n        \"tokenSent\": \"1\",\n        \"note\": \"This ia a test 1\"\n    },\n    {\n        \"user\": \"Shikhar2\",\n        \"sendTime\": \"2022-07-21 09:00:10\",\n        \"chain\": \"Polygon\",\n        \"tokenAddress\": \"0x84b9B910527Ad5C03A9Ca831909E21e236EA7b06\",\n        \"emailAddress\": \"programsend300@gmail.com\",\n        \"tokenNo\": 2,\n        \"expiry\": \"2024-12-05 10:00:10\",\n        \"KYC\": 1,\n        \"KYCResult\": 0,\n        \"sendStatus\": 0,\n        \"linkClicked\": 0,\n        \"whenClicked\": \"2022-05-08 14:04:18\",\n        \"walletAddress\": \"0x1f6A403347fd2d335d14Dc3f1AEb21D9192cF166\",\n        \"tokenSent\": \"1\",\n        \"note\": \"This ia a test 2\"\n    }\n]"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/email/admin",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"email",
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST NEW email Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"emailAddress\": \"edwardtam919@gmail.com\",\n        \"tokenNo\": 2,\n        \"note\": \"This ia a test 1\",\n        \"var1\": \"abc\",\n        \"var2\": \"def\",\n        \"var3\": \"ghi\",\n        \"var4\": \"xxx\"\n    },\n    {\n        \"emailAddress\": \"programsend300@gmail.com\",\n        \"tokenNo\": 5,\n        \"note\": \"This ia a test 2\",\n        \"var1\": \"jkl\",\n        \"var2\": \"mno\",\n        \"var3\": \"pqr\",\n        \"var4\": \"yyy\"\n    },\n    {\n        \"emailAddress\": \"edwardt@animocabrands.com\",\n        \"tokenNo\": 1,\n        \"note\": \"This ia a test 3\",\n        \"var1\": \"stu\",\n        \"var2\": \"vwx\",\n        \"var3\": \"yz0\",\n        \"var4\": \"zzz\"\n    }\n]"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/email/admin/1/BSC/0xd2459f4d1f0Ee987F0B0b170D96E60B03a7D8664/0/20221219131630",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"email",
+						"admin",
+						"1",
+						"BSC",
+						"0xd2459f4d1f0Ee987F0B0b170D96E60B03a7D8664",
+						"0",
+						"20221219131630"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST credential Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"credential\": \"cre\",\n    \"isAdmin\": 1,\n    \"isActive\": 1\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/credential/user6",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"credential",
+						"user6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST emailAddress Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"abc@abc.com\",\n    \"clientID\": \"abc\",\n    \"clientSecret\": \"def\",\n    \"redirectURI\": \"ghi\",\n    \"refreshToken\": \"jkl\",\n    \"isActive\": 1   \n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/emailaddress",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"emailaddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST emailTemplate Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"addressID\": \"1\",\n    \"subjectBSC\": \"{{Saluate}}\",\n    \"subjectPolygon\": \"{{Name}}\",\n    \"contentBSC\": \"{{contentBSC}}\",\n    \"contentPolygon\": \"{{contentPolygon}}\",\n    \"isActive\": 1\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/emailtemplate/template8",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"emailtemplate",
+						"template8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT crypto Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"walletAddress\":\"0x111\"}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/crypto/EW6NS7JR71IBU3WIP48WMDQLQUON9JS7",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"crypto",
+						"EW6NS7JR71IBU3WIP48WMDQLQUON9JS7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT credential Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"credential\": \"abc\",\n    \"isAdmin\": 0,\n    \"isActive\": 0\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/credential/user8",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"credential",
+						"user8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT emailAddress Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"abc@abc.com\",\n    \"clientID\": \"abc\",\n    \"clientSecret\": \"def\",\n    \"redirectURI\": \"ghi\",\n    \"refreshToken\": \"jkl\",\n    \"isActive\": 0   \n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/emailaddress/2",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"emailaddress",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT emailTemplate Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"templateXXX\",\n    \"addressID\": \"1\",\n    \"subjectBSC\": \"{{Saluate}}\",\n    \"subjectPolygon\": \"{{Name}}\",\n    \"contentBSC\": \"{{contentBSC}}\",\n    \"contentPolygon\": \"{{contentPolygon}}\",\n    \"isActive\": 0\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/emailtemplate/5",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"emailtemplate",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT emailTemplateLookup Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VcvQO0BC",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtapi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"emailTemplateID\": 101\n    },\n    {\n        \"emailTemplateID\": 102\n    }\n]"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/emailtemplatelookup/2",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"emailtemplatelookup",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "OPTIONS",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/credential",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"credential"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BlockPass All - BSC",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "1d2e14dfbfcd96afd12f48834d8c71ea"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					}
+				],
+				"url": {
+					"raw": "https://kyc.blockpass.org/kyc/1.0/connect/green_token_db33f/applicants",
+					"protocol": "https",
+					"host": [
+						"kyc",
+						"blockpass",
+						"org"
+					],
+					"path": [
+						"kyc",
+						"1.0",
+						"connect",
+						"green_token_db33f",
+						"applicants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BlockPass refID - BSC",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "1d2e14dfbfcd96afd12f48834d8c71ea"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					}
+				],
+				"url": {
+					"raw": "https://kyc.blockpass.org/kyc/1.0/connect/green_token_db33f/refID/0x54B6Acc64bf7A7cf7450a2C3025c29dC71974c1E",
+					"protocol": "https",
+					"host": [
+						"kyc",
+						"blockpass",
+						"org"
+					],
+					"path": [
+						"kyc",
+						"1.0",
+						"connect",
+						"green_token_db33f",
+						"refID",
+						"0x54B6Acc64bf7A7cf7450a2C3025c29dC71974c1E"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BlockPass All - Polygon",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "e8de73226b13acd10a34cf45520806fd"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					}
+				],
+				"url": {
+					"raw": "https://kyc.blockpass.org/kyc/1.0/connect/green_token_matic/applicants",
+					"protocol": "https",
+					"host": [
+						"kyc",
+						"blockpass",
+						"org"
+					],
+					"path": [
+						"kyc",
+						"1.0",
+						"connect",
+						"green_token_matic",
+						"applicants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BlockPass refID - Polygon",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "e8de73226b13acd10a34cf45520806fd"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					}
+				],
+				"url": {
+					"raw": "https://kyc.blockpass.org/kyc/1.0/connect/green_token_matic/refID/0x6Bf589b61ceF72080A620660F0cD2b442174f2Cf",
+					"protocol": "https",
+					"host": [
+						"kyc",
+						"blockpass",
+						"org"
+					],
+					"path": [
+						"kyc",
+						"1.0",
+						"connect",
+						"green_token_matic",
+						"refID",
+						"0x6Bf589b61ceF72080A620660F0cD2b442174f2Cf"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

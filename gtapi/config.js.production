@@ -1,0 +1,15 @@
+const config = {
+  db: {
+    /* don't expose password or any sensitive info, done only for demo */
+    host: "127.0.0.1",
+    user: "gtapi",
+    password: "Ss@mtdQ2",
+    database: "gtapi",
+  },
+  logConfig: {
+    logFolder: "./logs/",
+    logFile: "gtapi-%DATE%.log",
+   },
+  listPerPage: 1000000,
+};
+module.exports = config;

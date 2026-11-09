@@ -1,0 +1,54 @@
+# =========================
+# Environment & Secrets (Universal)
+# =========================
+.env
+.env.local
+.env.*.local
+.secret
+keys/
+keystore/
+mnemonic.txt
+
+# =========================
+# Node.js & Dependencies (Universal)
+# =========================
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnp/
+.pnp.js
+
+# =========================
+# Smart Contract Artifacts (Universal)
+# =========================
+artifacts/
+cache/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+slither_*.txt
+out/
+broadcast/
+cache_forge/
+
+# =========================
+# Frontend / dApp Build Files (Universal)
+# =========================
+dist/
+build/
+.next/
+out-dapp/
+.nuxt/
+public/build/
+
+# =========================
+# OS & IDE Settings (Universal)
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

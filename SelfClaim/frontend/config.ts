@@ -1,0 +1,19 @@
+// Types
+type IConfig = {
+  decimals: number;
+  airdrop: Record<string, number>;
+};
+
+// Config from generator
+const config: IConfig = {
+  "decimals": 18,
+  "airdrop": {
+    "0x4BCC679c78E2C6D724E49B2F59f0F3B0565854D9": 4,
+    "0x9B39710bD511bc14Fcb0f64a9D8f8e6F630751Ab": 3,
+    "0x1f6A403347fd2d335d14Dc3f1AEb21D9192cF166": 2,
+    "0x0e1543219ddEed5e71e53028920d3b9811A25f98": 1
+  }
+};
+
+// Export config
+export default config;

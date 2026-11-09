@@ -1,0 +1,6 @@
+{
+	"wallet_update_URL": "https://gtwalletupdate-staging.agiisoft.com/",
+	"blockpass_URL": "https://verify-with.blockpass.org/?clientId=",
+	"blockpass_clientId_BSC": "green_token_db33f",
+	"blockpass_clientId_Polygon": "green_token_matic"
+}
